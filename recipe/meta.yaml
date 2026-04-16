@@ -1,5 +1,5 @@
 {% set name = "eztaox" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/eztaox/eztaox-{{ version }}.tar.gz
-  sha256: f2cde7b16500c87b3ba9642585fa0812ae1934ea1b293ccd7f5ae488f8b9002f
+  sha256: 973ea223e0ae930c6682b654fff6e923c30714034300567170eb8277c0afdb5d
 
 build:
   number: 0
