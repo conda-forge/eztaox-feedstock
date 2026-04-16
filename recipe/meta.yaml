@@ -24,10 +24,10 @@ requirements:
   run:
     - python >={{ python_min }}
     - tinygp >=0.3.0,<0.4.0
-    - jax <=0.4.31
-    - jaxlib <=0.4.31
+    - jax ==0.4.31
+    - jaxlib ==0.4.31
     # See https://github.com/google-deepmind/optax/issues/1594.
-    - optax >=0.2.5,<0.3.0
+    - optax ==0.2.5
     - numpyro >=0.17.0,<0.20.0
 
 test:
